@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="cars.css">
+	<link href='//fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
+	<title>Car Site</title>
+
+<!-- jQuery library -->
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<script type="text/javascript">
+ $(document).ready(function(){
+ 	$('#bmw').hover(function(){
+ 		$(this).toggleClass('fade','slow');
+ 	});
+ 	$('#audi').hover(function(){
+ 		$(this).toggleClass('fade','slow');
+ 	});
+ 	$('#micu').hover(function(){
+ 		$(this).toggleClass('fade','slow');
+ 	});
+ 	$('span').hover(function(){
+ 		$(this).toggleClass('col','medium');
+ 	});
+ 	$('#audi').click(function(){
+ 		$('#malkasnimka').attr('src','audi.jpg');
+ 		$('#kolizaglavie').text('Audi RS5');
+ 		$('#opisanie').text('The Audi RS5 is what happens when you give the gang at Quattro GmbH, AudiвЂ™s in-house performance division, a long leash and an open checkbook. While it shares its basic silhouette with the comparatively pedestrian A5/S5 coupe, the RS5 is an entirely different beast. At its core is a 450-hp 4.2-liter naturally aspirated V-8 that loves to rev to its 8300-rpm redline. (For those keeping score, thatвЂ™s more than double the 220 horsepower produced by the turbocharged 2.0-liter four found in the A5 and 117 more than the 333-hp 3.0-liter supercharged V-6 in the S5.) All-wheel drive is standard, and AudiвЂ™s seven-speed S tronic dual-clutch automatic is the sole transmission choice.');
+ 	});
+ 	$('#bmw').click(function(){
+ 		$('#malkasnimka').attr('src','bmw.jpg');
+ 		$('#kolizaglavie').text('BMW M5');
+ 		$('#opisanie').text("The 2016 BMW M5 super sedan has everything a sports car and a luxury car really needs. The cabin is packed to the gills with comfort and convenience features. The suspension can cover ground from flat-attitude cornering to picking-up-Mom-from-the-airport suppleness. The many safety features on offer keep everyone protected. And the engine has more than sufficient power to move all of the above at ridiculous speeds. In BMW world, a single M indicates a high-performance version. In this case, it's the 5 Series that has the extra power, plus all of the necessary suspension, braking, aerodynamic and accommodation upgrades. This generation of 5 Series demonstrates a shift away from the enthusiast and more toward the luxury buyer. The current M5 also tries to be more things to more people -- it turns out that many of those things are absolutely awesome.");
+ 	});
+ 	$('#micu').click(function(){
+ 		$('#malkasnimka').attr('src','micu.jpg');
+ 		$('#kolizaglavie').text('Mitsubishi Lancer Evo');
+ 		$('#opisanie').text('Aimed squarely at drivers who value speed and handling above all else, the Evolution feels like the love child of an economy sedan and a Space X rocket. Powertrains include a 291-hp 2.0-liter turbo four with a five-speed manual in GSR models and a six-speed dual-clutch automatic in MR models; the Final Edition makes 303 hp with the five-speed. All-wheel drive is standard on each version; so, too, is a harsh ride. Sadly, this icon has been discontinued and won’t be replaced in the lineup')
+ 	});
+
+ });
+
+</script>
+ <!-- End jQuery library -->
+<body>
+<div id=''>
+	<h1 class='fontsforweb_fontid_64826'><span>C</span><span>a</span><span>r</span> <span>S</span><span>i</span><span>t</span><span>e</span>
+	</h1>
+</div>
+<div id='tarsachka'>
+<center>
+</center>
+</div>
+<div id='zaslide'>
+	<img id='bmw' src="bmw.jpg">
+	<img id='audi' src="audi.jpg">
+	<img id='micu' src="micu.jpg">
+</div>
+<div id='sivo'>
+<h1 id='kolizaglavie'>BMW M5</h1>
+<img id='malkasnimka' src="bmw.jpg">
+<p id='opisanie'>The 2016 BMW M5 super sedan has everything a sports car and a luxury car really needs. The cabin is packed to the gills with comfort and convenience features. The suspension can cover ground from flat-attitude cornering to picking-up-Mom-from-the-airport suppleness. The many safety features on offer keep everyone protected. And the engine has more than sufficient power to move all of the above at ridiculous speeds. In BMW world, a single M indicates a high-performance version. In this case, it's the 5 Series that has the extra power, plus all of the necessary suspension, braking, aerodynamic and accommodation upgrades. This generation of 5 Series demonstrates a shift away from the enthusiast and more toward the luxury buyer. The current M5 also tries to be more things to more people -- it turns out that many of those things are absolutely awesome.
+</p>
+</div>
+</body>
+</html> 
+
+

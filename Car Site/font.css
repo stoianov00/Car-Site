@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'terranital';
+	src: url('./terranital.eot');
+	src: local('terranital'), url('./terranital.woff') format('woff'), url('./terranital.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_64826">Text with this font applied</p> */
+.fontsforweb_fontid_64826 {
+	font-family: 'terranital' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
+
+
+f_name = input('Enter first name: ')
+s_name = input('Enter second name: ')
+l_name = input('Enter third name: ')

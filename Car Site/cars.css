@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'terranital';
+	src: url('./terranital.eot');
+	src: local('terranital'), url('./terranital.woff') format('woff'), url('./terranital.ttf') format('truetype');
+}
+.fontsforweb_fontid_64826 {
+	font-family: 'terranital' !important;
+}
+.fade{
+	opacity:0.8;
+}
+.col{
+	color: #6d6a6a;
+}
+body{
+	background-image: url('road.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+
+	font-size:60pt;
+	color:black;
+	text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: 32%;
+    display:inline-block; ;
+}
+#zaslide{
+	text-align: center;
+	padding-top: 40px;
+}
+#sivo{
+	background-color: #6d6a6a;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border-radius:20px;
+	margin-right: auto;
+	margin-left: auto;
+	display:inline-block;
+	padding:20px;
+	margin:0;
+}
+#kolizaglavie{
+    font-family: 'Faster One';
+    font-size: 50px;
+    text-shadow: 3px 4px 3px;
+    margin:0;
+}
+#malkasnimka{
+	background-attachment: fixed;
+	display:inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+    height: auto;
+    width: auto\8; /* ie8 */
+    border-radius:20px;
+}
+#opisanie{
+	font-size:23px;
+	font-style:italic;
+}
+input[type=text] {
+
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+ 	border:2px solid:black
+
+    background-color: black;
+    background-image: url('lupa.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+ 
+}
+input[type=text]:focus {
+	
+    width: 50%;
+}
